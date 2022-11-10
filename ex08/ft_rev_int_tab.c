@@ -6,11 +6,13 @@
 /*   By: amejia <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 16:03:58 by amejia            #+#    #+#             */
-/*   Updated: 2022/11/09 22:10:40 by amejia           ###   ########.fr       */
+/*   Updated: 2022/11/10 01:28:16 by amejia           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+
+int ft_sort_int_tab(int *tab, int size);
 
 int	main(void)
 {
@@ -25,7 +27,7 @@ int	main(void)
 		printf("%d\n", intarray[counter]);
 		counter++;
 	}
-	ft_sort_int_tab(&intarray[0],10);
+	ft_sort_int_tab(intarray,10);
 	
 	printf("--------\n");
 	counter=0;
